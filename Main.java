@@ -21,6 +21,17 @@ class Fahrzeug {
     public double getLeerGewicht(){return leerGewicht;}
   }
 class Fahrrad extends Fahrzeug{
-
+  private float ramenHoehe;
+  public void setRamenHoehe(float ramen){
+    this.ramenHoehe = ramen;
+  }
+  public float getRamenHoehe(){return ramenHoehe;}
+}
+class KraftFahrzeug extends Fahrrad{
+  private int leistung;
+  public void setLeistung(int ps){
+    this.leistung = ps;
+  }
+  public float getLeistung(){return leistung;}
 }
   
