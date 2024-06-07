@@ -1,10 +1,5 @@
 /* Author: Remo */
-public class Main{
-  public static void main(String[] args){
-    System.out.println("This program is about Fahrzeuge");
-  }
-}
-class Fahrzeug {
+public class Fahrzeug {
     /* public static void main(String[] args) {
       System.out.println("Hello World");
     } */
@@ -20,7 +15,7 @@ class Fahrzeug {
     public double getFahrzeugNummer(){return nummer;}
     public double getLeerGewicht(){return leerGewicht;}
   }
-class Fahrrad extends Fahrzeug{
-
+public class Harrad extends Fahrzeug{
+  
 }
   
