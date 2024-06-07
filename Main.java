@@ -34,4 +34,12 @@ class KraftFahrzeug extends Fahrrad{
   }
   public float getLeistung(){return leistung;}
 }
+class PersonenWagen extends KraftFahrzeug{
+  private int anzahlPlaetze;
+  public void setAnzahlPlaetze(int plaetze){
+  this.anzahlPlaetze = plaetze;
+  }
+  public int getAnzahlPlaetze(){return anzahlPlaetze;}
+}
+
   
