@@ -1,7 +1,18 @@
 /* Author: Remo */
 public class Main{
   public static void main(String[] args){
-    System.out.println("This program is about Fahrzeuge");
+    System.out.println("\nThis program is about Fahrzeuge");
+    Fahrzeug Traktor = new Fahrzeug();
+    Traktor.setFahrzeugNummer(55);
+    Traktor.setLeerGewicht(0);
+
+    PersonenWagen Remos = new PersonenWagen();
+    Remos.setLeerGewicht(100);
+    Remos.setFahrzeugNummer(66);
+    Remos.setLeistung(600);
+
+    System.out.println("Fahrzeugnummer: "+Traktor.getFahrzeugNummer()+"\n");
+    System.out.println("Fahrzeugnummer: "+Remos.getFahrzeugNummer()+" PS: "+Remos.getLeistung()+"\n");
   }
 }
 class Fahrzeug {
