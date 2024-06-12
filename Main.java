@@ -1,4 +1,5 @@
 /* Author: Remo */
+
 public class Main{
   public static void main(String[] args){
     System.out.println("\nThis program is about Fahrzeuge");
@@ -52,5 +53,3 @@ class PersonenWagen extends KraftFahrzeug{
   }
   public int getAnzahlPlaetze(){return anzahlPlaetze;}
 }
-
-  
