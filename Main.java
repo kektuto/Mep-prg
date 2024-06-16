@@ -2,6 +2,20 @@
 
 public class Main{
   public static void main(String[] args){
+
+    Hund Fido = new Hund("hotdog");
+    Katze Frisky = new Katze("Grauvieh");
+    Frisky.melden("Miau Miau");
+    System.out.println("Name: "+Frisky.name);
+    Fido.melden("Wuuf Wuuf");
+    System.out.println("Name: "+Fido.name);
+
+    /* 
+    Tisch meinTisch = new Tisch(5, 2,3);
+    System.out.println("Fläche: "+meinTisch.flache());
+    */
+
+    /*
     System.out.println("\nThis program is about Fahrzeuge");
     Fahrzeug Traktor = new Fahrzeug();
     Traktor.setFahrzeugNummer(55);
@@ -14,6 +28,7 @@ public class Main{
 
     System.out.println("Fahrzeugnummer: "+Traktor.getFahrzeugNummer()+"\n");
     System.out.println("Fahrzeugnummer: "+Remos.getFahrzeugNummer()+" PS: "+Remos.getLeistung()+"\n");
+    */
   }
 }
 class Fahrzeug {
